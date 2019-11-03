@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
       Transcript Formatter
     </ion-title>
@@ -7,6 +7,10 @@
 </ion-header>
 
 <ion-content>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="10" offset="1">
 
   <ion-card>
       <ion-card-header>
@@ -26,5 +30,8 @@
         <ion-textarea [(ngModel)]="transOut" autoGrow="true" placeholder="Converted Text will be displayed here"></ion-textarea>
       </ion-card-content>
     </ion-card>
-    
+  </ion-col>
+</ion-row>
+</ion-grid>
+
 </ion-content>
